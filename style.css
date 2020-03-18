@@ -1,4 +1,29 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
 body ul{
     display: inline;
 }
+.navbar2{
 
+}
+
+
+.main-footer{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: #B247FF;
+    position: fixed;
+    bottom: 0;
+
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
